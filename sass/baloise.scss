@@ -1,0 +1,25 @@
+/*
+ * Globals
+*/
+
+@import 'variables';
+@import 'generals';
+
+@import 'header';
+@import 'body';
+@import 'footer';
+
+.masthead,
+.mastfoot,
+.mastbody{
+    @media (min-width: 768px) { 
+        padding: 2rem;
+    }
+    padding: 1rem;
+}
+
+.mastbody{
+    @media (min-width: 1170px) { 
+        padding: 12rem;
+     }
+}

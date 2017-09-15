@@ -1,0 +1,22 @@
+.masthead{
+    vertical-align: middle;
+    img{
+        @media (min-width: 768px) { 
+            width: 15rem;
+        }
+        width: 6rem;
+        float: left;
+    }
+    .nav-masthead{
+        float: right;
+        .nav-link{
+            color: $c-darkblue;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            padding:0;
+        }
+        .nav-link:hover{
+            text-decoration: underline;
+        }
+    }
+}
